@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+.p, input{
+	margin-top: 16px;
+}textarea{
+	width: 400px;
+	position: relative;
+	height: 200px;
+}
+
+.login{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 30px;
+}

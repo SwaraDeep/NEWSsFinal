@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+<style>
+body, html{
+    font-family:Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, Sans-Serif;
+}
+body{
+	margin:0px;
+	background-color: #444444;
+}
+.menubar{
+	text-align: right;
+	background-color: #66b3ff;
+}
+
+p{
+	margin: 5px;
+	text-align: center;
+	color: white;
+}
+
+h1{
+	margin-top: 25px;
+}
+
+h2{
+	margin-top: 10px;
+}
+
+a{
+	padding: 16px;
+	text-decoration: none;
+	color: #ffffff;
+}
+option, select{
+	color: white;
+	padding: 16px;
+	border-style: hidden;
+}
+option:active{
+	border-style:hidden;
+	padding: 16px;
+}
+a:hover{
+	background-color: #3399ff;
+}
+select:hover, select:active, option:hover{
+	background-color: #3399ff;
+	color: white;
+}
+
+.categories{
+	background-color: #66b3ff;
+	border-style: hidden;
+}
+
+.header{
+	position: fixed;
+	z-index: 2;
+	background-color:#3399ff;
+	width: 100%;
+}
+
+.heading{
+	text-align: center;
+	margin-top: 16px;
+	text-decoration: blink;
+	text-shadow: 2px 3px 3px rgba(0,0,0,0.4);
+}
+
+.contact{
+	text-align: center;
+}
+
+
+.cards{
+	align-self: center;
+	float: left;
+	margin-top:200px;
+	border-radius: 16px; 
+}
+
+.login{
+	padding: 50px;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-top: 150px;
+	position: relative;
+	background-color:#66b3ff;
+	align-items:center;
+	border-radius: 16px;
+}
+.body{
+	align-items:center;
+	padding-top: 50px;
+	width: 100%;
+	position: absolute;
+}
+
+.container{
+	position:relative;
+	float: left;
+	width:280px;
+	height: 300px;
+	margin-left: 15px;
+	margin-right: 35px;
+	margin-bottom: 40px;
+	box-shadow: 0 0 16px 4px rgba(0,0,0,0.3);
+	border-radius: 16px; 
+	transition: 0.3s;
+}
+.emptycards{
+	align-self: center;
+	float: left;
+	margin-top:200px;
+	border-radius: 16px; 
+}
+.emptycontainer{
+	position:relative;
+	align-content:center;
+	float: left;
+	padding: 100%;
+	box-shadow: 0 0 16px 4px rgba(0,0,0,0.3);
+	border-radius: 16px; 
+	transition: 0.3s;
+}
+.container:hover{
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.7);
+}
+.bottom{
+ font-size: 25px;
+ height: 80px;
+ padding-bottom: 10px;
+ padding-top: 10px; 
+}
+img{
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px; 
+	width: 100%;
+}
+p.title{
+	color:#aaaaaa;
+	overflow:hidden;
+	height: 55px;
+	margin: 10px;
+}
+
+</style>

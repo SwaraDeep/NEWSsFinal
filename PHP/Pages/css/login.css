@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+<style>
+a{
+	padding: 16px;
+	text-decoration: none;
+	color: #aaaaaa;
+}
+p{
+	color: white;
+	padding-bottom: 8px;
+	padding-top: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+input{
+	font-family:Segoe UI, Segoe WP, Arial, Sans-Serif;
+	border-style: hidden;
+	padding: 8px;
+	border-color: #3399ff;
+	margin-bottom: 8px;
+}
+
+.btn{
+	background-color: #66b3ff;
+	border-style:groove;
+	margin-right: 16px;
+	width: 120px;
+	color: white;
+	margin-top: 16px;
+}
+
+.btn:hover{
+	background-color: #3399ff;
+	box-shadow: 8px 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+a:hover{
+	background-color: #3399ff;
+}
+
+select:hover, select:active, option:hover{
+	background-color: #3399ff;
+	color: white;
+}
+
+.categories{
+	background-color: #66b3ff;
+	border-style: hidden;
+}
+
+li, h4, h2{
+	color:white;
+}
+
+.login{
+	padding: 36px;
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-top: 150px;
+	position: relative;
+	background-color:#66b3ff;
+	align-items:center;
+	border-radius: 16px;
+}
+.body{
+	align-items:center;
+	padding-top: 50px;
+	width: 100%;
+	position: absolute;
+}
+b{
+	color: white;
+}
