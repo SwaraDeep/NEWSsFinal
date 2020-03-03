@@ -5,64 +5,78 @@ body, html{
 }
 body{
 	margin:0px;
-	background-color: #444444;
+	background-image: url("/Project/PHP/Pages/images/bg.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	background-position:center;
+	background-attachment: fixed;
 }
+.content{
+	margin:0px;
+	background-size: 100%;
+}
+
+button{
+	background-color: transparent;
+	border-style: none;
+	padding: 0px;
+}
+
 .menubar{
 	text-align: right;
-	background-color: #66b3ff;
+	background-color: rgba(50, 50, 50, 0.7);
 }
 
 p{
 	margin: 5px;
-	text-align: center;
 	color: white;
 }
 
 h1{
-	margin-top: 25px;
+	margin: 0px;
+	padding: 16px;
 }
-
 h2{
-	margin-top: 10px;
+	margin: 0px;
+	padding: 15px;
 }
 
 a{
 	padding: 16px;
 	text-decoration: none;
-	color: #ffffff;
+	color: white;
 }
 option, select{
 	color: white;
 	padding: 16px;
+	border-width: 0px;
 	border-style: hidden;
 }
-option:active{
-	border-style:hidden;
-	padding: 16px;
-}
+
 a:hover{
-	background-color: #3399ff;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 select:hover, select:active, option:hover{
-	background-color: #3399ff;
+	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 }
 
 .categories{
-	background-color: #66b3ff;
+	background-color:rgba(75, 75, 75, 0.7);
 	border-style: hidden;
 }
 
 .header{
 	position: fixed;
 	z-index: 2;
-	background-color:#3399ff;
+	background-color:#808080;
 	width: 100%;
 }
 
 .heading{
 	text-align: center;
-	margin-top: 16px;
+	color:white;
+	background-color: rgba(0, 0, 0, 0.7);
 	text-decoration: blink;
 	text-shadow: 2px 3px 3px rgba(0,0,0,0.4);
 }
@@ -75,44 +89,40 @@ select:hover, select:active, option:hover{
 .cards{
 	align-self: center;
 	float: left;
-	margin-top:200px;
-	border-radius: 16px; 
+	background:  rgba(0, 0, 0, 0.5);
+	padding-top:20px; 
+	width: 100%;
 }
 
 .login{
 	padding: 50px;
 	margin-left: 33%;
 	margin-right: 33%;
-	margin-top: 150px;
+	margin-top: 20px;
 	position: relative;
-	background-color:#66b3ff;
+	background-color: rgba(0, 0, 0, 0.8);
 	align-items:center;
 	border-radius: 16px;
-}
-.body{
-	align-items:center;
-	padding-top: 50px;
-	width: 100%;
-	position: absolute;
 }
 
 .container{
 	position:relative;
 	float: left;
-	width:280px;
-	height: 300px;
+	width:28%;
+	height: 370px;
 	margin-left: 15px;
-	margin-right: 35px;
+	margin-right: 20px;
 	margin-bottom: 40px;
 	box-shadow: 0 0 16px 4px rgba(0,0,0,0.3);
-	border-radius: 16px; 
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 8px; 
 	transition: 0.3s;
 }
 .emptycards{
 	align-self: center;
 	float: left;
 	margin-top:200px;
-	border-radius: 16px; 
+	border-radius: 8px; 
 }
 .emptycontainer{
 	position:relative;
@@ -120,28 +130,41 @@ select:hover, select:active, option:hover{
 	float: left;
 	padding: 100%;
 	box-shadow: 0 0 16px 4px rgba(0,0,0,0.3);
-	border-radius: 16px; 
+	border-radius: 8px; 
 	transition: 0.3s;
 }
 .container:hover{
 	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.7);
 }
 .bottom{
- font-size: 25px;
- height: 80px;
- padding-bottom: 10px;
- padding-top: 10px; 
+ font-size: 20px;
+ padding-bottom: 20px;
+ padding-top: 10px;
+ margin-left: 8px;
+ margin-right: 8px;
 }
 img{
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px; 
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px; 
 	width: 100%;
+	height: 250px;
 }
 p.title{
-	color:#aaaaaa;
+	color:#cccccc;
 	overflow:hidden;
-	height: 55px;
-	margin: 10px;
+	text-align:justify;
+	height: 70px;
+	margin: 8px;
 }
+.author{
+	height: 20px;
+	color: white;
+	float: left;
+	font-weight:bold;
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+
 
 </style>

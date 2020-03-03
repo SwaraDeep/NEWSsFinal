@@ -7,30 +7,6 @@
 <link href="css/login.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-<div class="heading">
-<h1>NEWSs</h1>
-</div>
-
-<div class="menubar">
-<a href="index.php">Home</a>
-<a href="PostNews.html">Upload</a>
-<select class="categories">
-<option>Select Category</option>
-<option>Politics</option>
-<option>Science</option>
-<option>Technology</option>
-<option>Cinema</option>
-<option>Wheather</option>
-<option>Sports</option>
-</select>
-<a href="about.html">About Us</a>
-<a href="#login" class="admin">Login</a>
-<a href="howtouse.html">How to use</a>
-<a href="contact.html">Contact</a>
-</div>
-</div>
-
 <div class="body">
 <div class="login" id="login">
 <?php

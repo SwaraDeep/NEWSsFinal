@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+.p1{
+	padding-top: 30px;
+	float: left;
+	background:  rgba(0, 0, 0, 0.8);
+}
+body{
+	background-attachment: fixed;
+	font-family:Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, Sans-Serif;
+}
+
+.body{
+	margin: 0px;
+}
+.p2{
+	padding-top: 50px;
+	width: 35%;
+	float: left;
+}
+
+.p3{
+	float: left;
+	width: 60%;
+	margin-left: 20px;	
+}
+
+img{
+	margin: 16px;
+	height: 100%;
+	border-radius: 16px;
+}
+
+.title{
+	font-size: xx-large;
+	color: white;
+	font-variant:small-caps;
+	text-align:justify;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.description{
+	padding-top: 30px;
+	font-weight:lighter;
+	font-stretch:wider;
+	text-align:justify;
+	font-size:large;
+	padding-left: 30px;
+	color: white;
+}
+
+.author{
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-left:0px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+
