@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Registration</title>
+<link href="css/login.css" type="text/css" rel="stylesheet">
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="css/postnews.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="body">
+		<div class="login" id="login">
+			<div class="p">
+				<b>Please fill the following details (All fields are mandatory):</b>
+			</div>
+			<form action="registration.php" method="post">
+				<p>Username:</p>
+				<input type="text" placeholder="Full Name" name="username"><br>
+				<p>Location:</p>
+				<input type="text" placeholder="Location" name="location"><br>
+				<p>Choose Password:</p>
+				<input type="password" placeholder="8-14 characters" name="password"><br>
+				<p>Re-enter Password:</p>
+				<input type="password" placeholder="Re-enter password" name="repassword"><br>
+				<p>Mobile:</p>
+				<input type="number" placeholder="Mobile Number" name="mobile"><br>
+				<p>Email Id:</p>
+				<input type="email" placeholder="Email" name="email"><br>
+				<input type="submit" value="Sign up" class="btn"> 
+				<input type="reset" class="btn">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

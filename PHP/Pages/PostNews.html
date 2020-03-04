@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Post News</title>
-<script type="text/javascript" src="postNews.php"></script>
-<link href="css/login.css" type="text/css" rel="stylesheet">
-<link href="css/index.css" type="text/css" rel="stylesheet">
-<link href="css/postnews.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-
-<link href="css/index.css" type="text/css" rel="stylesheet">
-<link rel="stylesheets" href="css/login.css" type="text/css">
-
-<div class="body">
-<div class="login" id="login">
-<div class="p"><b>Please fill the following details:</b></div>
+<div class="p">
+	<b>Please fill the following details:</b>
+</div>
 <form action="postNews.php" method="POST">
-
-<div class="p">Image:</div>
-<input type="file" name="image">
-
-<div class="p">Title:</div><input type="text" placeholder="Title for the news" name="title">
-
-<div class="p">Description:</div>
-<textarea placeholder="Decscription about the post" name="desc"></textarea><br>
-
-<div class="p">Writer:</div>
-<input type="text" name="writer" placeholder="Author name"><br>
-<input type="submit" value="Post" class="btn">
-<input type="reset" value="Clear" class="btn">
+	<div class="p">Image:</div>
+	<input type="file" name="image">
+	<div class="p">Title:</div>
+	<input type="text" placeholder="Title for the news" name="title">
+	<div class="p">Description:</div>
+	<textarea placeholder="Decscription about the post" name="desc"></textarea>
+	<br>
+	<div class="p">Writer:</div>
+	<input type="text" name="writer" placeholder="Author name"><br>
+	<input type="submit" value="Post" class="btn"> <input
+		type="reset" value="Clear" class="btn">
 </form>
-</div>
-</div>
-</body>
-</html>
